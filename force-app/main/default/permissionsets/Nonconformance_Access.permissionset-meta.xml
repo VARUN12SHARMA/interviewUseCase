@@ -3,6 +3,11 @@
     <description>Grants read and edit access to the Nonconformance object and its relevant fields for quality and compliance users.</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.SQX_NC_Reference__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SQX_Nonconformance__c.SQX_Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
